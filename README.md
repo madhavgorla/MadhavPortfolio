@@ -131,5 +131,3 @@ B.Tech Computer Science & Data Science | Full Stack Developer
 - 🧩 [LeetCode](https://leetcode.com/madhav_gorla)
 
 ---
-
-⭐ If you like this portfolio, feel free to star the repo!
