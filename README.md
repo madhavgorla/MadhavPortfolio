@@ -1,10 +1,18 @@
 # 🚀 Madhav Gorla — Personal Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-cyan?style=for-the-badge)](https://madhavgorla.github.io)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cyan?style=for-the-badge)](https://madhavgorla-portfolio.netlify.app)
 [![GitHub](https://img.shields.io/badge/GitHub-madhavgorla-black?style=for-the-badge&logo=github)](https://github.com/madhavgorla)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Madhav_Gorla-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/madhav-gorla-8b7a07374)
+[![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://madhavgorla-portfolio.netlify.app)
+[![Google Indexed](https://img.shields.io/badge/Google-Indexed_✅-4285F4?style=for-the-badge&logo=google)](https://search.google.com/search-console)
 
 > A modern, responsive personal portfolio website built with pure HTML, CSS, and JavaScript — showcasing projects, skills, experience, and a working contact form.
+
+---
+
+## 🌐 Live Site
+
+**[https://madhavgorla-portfolio.netlify.app](https://madhavgorla-portfolio.netlify.app)**
 
 ---
 
@@ -36,6 +44,7 @@
 - 📬 **Working Contact Form** powered by EmailJS (no backend needed)
 - 📄 **Resume Download** button (direct `.docx` download)
 - ⚡ **Smooth Scrolling** and sticky navbar
+- 🔍 **Google Indexed** via Google Search Console
 
 ---
 
@@ -48,6 +57,7 @@
 | JavaScript (Vanilla) | Interactivity & Scroll Logic |
 | [EmailJS](https://www.emailjs.com/) | Contact Form Email Delivery |
 | [Font Awesome 6](https://fontawesome.com/) | Icons |
+| [Netlify](https://www.netlify.com/) | Hosting & Deployment |
 
 ---
 
@@ -55,11 +65,12 @@
 
 ```
 portfolio/
-├── index.html               # Main HTML file
-├── style.css                # All styles and animations
-├── script.js                # JS — navbar, scroll reveal, contact form
-├── madhav-gorla-resume.docx # Downloadable resume
-└── README.md                # You're reading this!
+├── index.html                    # Main HTML file
+├── style.css                     # All styles and animations
+├── script.js                     # JS — navbar, scroll reveal, contact form
+├── madhav-gorla-resume.docx      # Downloadable resume
+├── googlea587a612b1629ec7.html   # Google Search Console verification (do not delete)
+└── README.md                     # You're reading this!
 ```
 
 ---
@@ -68,7 +79,7 @@ portfolio/
 
 This portfolio uses [EmailJS](https://www.emailjs.com/) to send contact form messages directly to your inbox — no server required.
 
-The following credentials are already configured in `index.html` and `script.js`:
+The following credentials are configured in `index.html` and `script.js`:
 
 | Key | Value |
 |---|---|
@@ -89,27 +100,25 @@ Make sure your EmailJS email template uses these variable names:
 
 ---
 
-## 🚀 Deployment (GitHub Pages)
+## 🚀 Deployment (Netlify)
 
-1. Create a new GitHub repository named **`madhavgorla.github.io`**
-2. Upload all files: `index.html`, `style.css`, `script.js`, `madhav-gorla-resume.docx`
-3. Go to **Settings → Pages → Source → main branch → Save**
-4. Your portfolio will be live at:
+This portfolio is deployed on **Netlify** via GitHub auto-deploy.
 
-```
-https://madhavgorla.github.io
-```
+1. Push any changes to the `main` branch on GitHub
+2. Netlify automatically redeploys within ~1 minute
+3. Live at: **[https://madhavgorla-portfolio.netlify.app](https://madhavgorla-portfolio.netlify.app)**
 
 ---
 
-## 📈 Google Indexing
+## 🔍 Google Search Console
 
-To appear on Google Search:
+| Step | Status |
+|---|---|
+| Site verified on Google Search Console | ✅ Done |
+| Indexing requested | ✅ Done |
+| Appears on Google Search | ⏳ 3–7 days |
 
-1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your live URL
-3. Click **Request Indexing**
-4. Wait 3–7 days for Google to crawl your site
+> ⚠️ Do NOT delete `googlea587a612b1629ec7.html` — it keeps your site verified on Google.
 
 ---
 
@@ -137,9 +146,12 @@ This project is open source and available under the [MIT License](LICENSE).
 **Madhav Gorla**
 B.Tech Computer Science & Data Science | Full Stack Developer
 
+- 🌐 [Portfolio](https://madhavgorla-portfolio.netlify.app)
 - 📧 [madhugorla497@gmail.com](mailto:madhugorla497@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/madhav-gorla-8b7a07374)
 - 🐙 [GitHub](https://github.com/madhavgorla)
 - 🧩 [LeetCode](https://leetcode.com/madhav_gorla)
 
 ---
+
+⭐ If you like this portfolio, feel free to star the repo!
